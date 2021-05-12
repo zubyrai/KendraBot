@@ -8,8 +8,7 @@ componentDidMount(){
   
     (function(d, m){
         var kommunicateSettings = 
-            {"appId":"395d6c8e96ca1c3f069cb08e461fbd0a1","popupWidget":true,"automaticChatOpenOnNavigation":true, "voiceName":"Google UK English Male", // Replace Google Deutsch with the voiceName or an array of voiceNames from the below mentioned table list
-             "voiceRate":1};
+            {"appId":"395d6c8e96ca1c3f069cb08e461fbd0a1","popupWidget":true,"automaticChatOpenOnNavigation":true, "voiceName":"Google UK English Male"};
         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
         s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
         var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
