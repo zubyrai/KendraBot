@@ -15,7 +15,7 @@ componentDidMount(){
                 "automaticChatOpenOnNavigation":true, 
                 "voiceInput": true,
                 "voiceOutput":true,
-                "voiceNames": ["Google UK English Male", "Google français"]
+                "voiceName": "Google UK English Male"
             };// Replace Google Deutsch with the voiceName or an array of voiceNames from the below mentioned table list
             
         
