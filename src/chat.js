@@ -9,7 +9,7 @@ componentDidMount(){
     (function(d, m){
         var kommunicateSettings = 
           
-            {"appId":"395d6c8e96ca1c3f069cb08e461fbd0a1","popupWidget":true, "voiceInput": true,   "automaticChatOpenOnNavigation":true, "voiceName":"Google UK English Male", "Google français"};
+            {"appId":"395d6c8e96ca1c3f069cb08e461fbd0a1","popupWidget":true, "automaticChatOpenOnNavigation":true,  "voiceInput": true, "voiceName":["Google UK English Male", "Google français"]};
        
         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
         s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
