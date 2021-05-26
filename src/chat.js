@@ -9,14 +9,16 @@ componentDidMount(){
     (function(d, m){
         var kommunicateSettings = 
           
-            {"appId":"395d6c8e96ca1c3f069cb08e461fbd0a1","popupWidget":true, "automaticChatOpenOnNavigation":true};
+            {
+                "appId":"395d6c8e96ca1c3f069cb08e461fbd0a1",
+                "popupWidget":true, 
+                "automaticChatOpenOnNavigation":true, 
+                "voiceOutput":true,
+                "voiceNames": ["Google UK English Male", "Google français"]
+            };// Replace Google Deutsch with the voiceName or an array of voiceNames from the below mentioned table list
+            
         
-      if( voiceInput == 'en-GB') {
-          voiceName ="Google UK English Male";
-          
-      }else if( voiceInput == 'fr-FR'){
-           voiceName ="Google français";
-      }
+      
        
         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
         s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
