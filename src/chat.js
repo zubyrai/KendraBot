@@ -8,9 +8,9 @@ componentDidMount(){
   
     (function(d, m){
         var kommunicateSettings = 
-            if(locale == 'en-GB')
+            if(voiceInput == 'en-GB')
             {"appId":"395d6c8e96ca1c3f069cb08e461fbd0a1","popupWidget":true,"automaticChatOpenOnNavigation":true, "voiceName":"Google UK English Male"}
-        else if (locale == 'fr-FR')
+        else if (voiceInput == 'fr-FR')
           {"appId":"395d6c8e96ca1c3f069cb08e461fbd0a1","popupWidget":true,"automaticChatOpenOnNavigation":true, "voiceName":"Google français"}
                  
         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
