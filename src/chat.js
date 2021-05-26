@@ -16,7 +16,7 @@ componentDidMount(){
                 "voiceInput": true,
                 "voiceOutput":true,
                 "voiceName": "Google UK English Male"
-            };// Replace Google Deutsch with the voiceName or an array of voiceNames from the below mentioned table list
+            };
             
         
       
