@@ -13,6 +13,7 @@ componentDidMount(){
                 "appId":"395d6c8e96ca1c3f069cb08e461fbd0a1",
                 "popupWidget":true, 
                 "automaticChatOpenOnNavigation":true, 
+                "voiceInput": true,
                 "voiceOutput":true,
                 "voiceNames": ["Google UK English Male", "Google français"]
             };// Replace Google Deutsch with the voiceName or an array of voiceNames from the below mentioned table list
